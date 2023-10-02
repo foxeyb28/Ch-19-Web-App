@@ -45,8 +45,8 @@ module.exports = () => {
           },
         ],
       }),
+      new MiniCssExtractPlugin(),
     ],
-
     module: {
       rules: [
         {
