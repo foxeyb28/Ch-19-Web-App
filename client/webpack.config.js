@@ -13,7 +13,7 @@ module.exports = () => {
     entry: {
       main: './src/js/index.js',
       install: './src/js/install.js',
-      editor: './src/js/editor.js',
+      //editor: './src/js/editor.js',
     },
     output: {
       filename: '[name].bundle.js',
@@ -31,7 +31,7 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: 'Tex Editor',
+        name: 'Text Editor',
         short_name: 'Editor',
         description: 'Just Another Text Editor!',
         background_color: '#225ca3',
